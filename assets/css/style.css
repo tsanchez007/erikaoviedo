@@ -137,25 +137,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 30px;
   }
 }
 
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
-
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-  padding-left: 10px;
-  border-left: 4px solid #18d26e;
-}
 
 #header #logo img {
   padding: 0;
@@ -191,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -593,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background:#ffad4d;
+  background: #ffad4d;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -607,7 +592,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f7f7f7;
+  background: #fbfbfb;
 }
 
 /* Featured Services Section
@@ -693,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col .icon {
-  width: 64px;
+  width: 80px;
   height: 64px;
   padding-top: 8px;
   text-align: center;
@@ -765,7 +750,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .icon i {
   color: #18d26e;
-  font-size: 36px;
+  font-size: 80px;
   line-height: 1;
   transition: 0.5s;
 }
@@ -910,12 +895,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 60px 0;
+  padding: 25px 0;
 }
 
 #portfolio #portfolio-flters {
   padding: 0;
-  margin: 5px 0 35px 0;
+  margin: 5px 0 5px 0;
   list-style: none;
   text-align: center;
 }
@@ -955,7 +940,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -1023,13 +1008,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 30px;
-  height: 90px;
+  padding: 27px;
+  height: 100px;
   border-radius: 0 0 3px 3px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
@@ -1049,9 +1034,46 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
   color: #b8b8b8;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
 }
+
+
+
+
+#servicio2 .portfolio-item .portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  height: 15px;
+  border-radius: 0 0 20px 20px;
+}
+
+#servicio2 .portfolio-item .portfolio-info h4 {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #ECA047;
+}
+
+
+#servicio2 .portfolio-item {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+
+#servicio2 .portfolio-item .portfolio-info {
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    height: 300px;
+    border-radius: 0 0 3px 3px;
+}
+
+
+
 
 /* Clients Section
 --------------------------------*/
