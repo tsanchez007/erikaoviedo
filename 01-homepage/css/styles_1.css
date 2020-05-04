@@ -411,7 +411,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 7. FOOTER INSTAGRAM STYLING 
 --------------------------------- */
 
-.footer-instagram-area{ overflow: hidden; border-top: 1px solid #ccc; }
+
 
 .footer-instagram-area .title{ padding: 20px 0; }
 

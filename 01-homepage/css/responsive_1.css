@@ -82,7 +82,7 @@
 	/* BOTTOM AREA */
 	
 	header .main-menu{ text-align: left; display: none; float: none; clear: both; max-height: 400px;
-		overflow: auto; border-top: 1px solid #ccc; }
+		overflow: auto; border-top: 0px solid #ccc; }
 	
 	header .main-menu > li{ display: block; float: none; border-bottom: 1px solid #ddd; }
 	
